@@ -30,7 +30,7 @@ exams concurrently.
 - it cannot be negative, nor less than 2, otherwise, it will default to 2
 
 ```
-gcc main.c -o main && ./main <number of TAs>
+gcc main_101182048_101324189.c -o main && ./main <number of TAs>
 ```
 
 ## Version History

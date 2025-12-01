@@ -1,7 +1,9 @@
-#ifndef CONCURRENT_PROCESSES_H
-#define CONCURRENT_PROCESSES_H
+#ifndef CONCURRENT_PROCESSES_H_101182048_101324189
+#define CONCURRENT_PROCESSES_H_101182048_101324189
 
 #include <stddef.h>
+#include <stdio.h>
+#include <unistd.h>
 
 #define SHARED_RUBRIC "rubric_shm_obj" // name of rubric shared memory object
 #define MAX_RUBRIC_ENTRIES 50          // generic cap on entries up to 50, can be changed

@@ -16,7 +16,7 @@
 #define ANSI_COLOR_RED "\x1b[31m"
 #define ANSI_COLOR_RESET "\x1b[0m"
 
-#include "concurent_processes.h"
+#include "concurent_processes_101182048_101324189.h"
 
 /**
  * @brief Create a hared Memory Rubric object with size sizeof(rubric_shared_data) struct
