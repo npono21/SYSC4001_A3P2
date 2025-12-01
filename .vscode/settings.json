@@ -1,0 +1,9 @@
+{
+  "files.associations": {
+    "*.embeddedhtml": "html",
+    "stddef.h": "c",
+    "concurent_processes.h": "c",
+    "stdlib.h": "c",
+    "typeinfo": "c"
+  }
+}
