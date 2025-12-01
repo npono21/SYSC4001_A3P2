@@ -80,7 +80,7 @@ rubric_shared_data *load_rubric(rubric_shared_data *rubric)
 
     if (!fp)
     {
-        perror("Could not open rubric.txt file!");
+        printf("Could not open rubric.txt file!\n");
         return NULL;
     }
 
@@ -327,7 +327,7 @@ void correct_hardcopy_rubric(rubric_shared_data *rubric)
 
     if (!fp)
     {
-        perror("Could not open rubric.txt file!");
+        printf("Could not open rubric.txt file!\n");
         exit(1);
     }
 
@@ -525,7 +525,7 @@ void correct_hardcopy_exam(exam_file_shared_data *exam, char *exam_file_name, in
     {
         fflush(fp);
         if (ftruncate(fileno(fp), pos) == -1)
-            perror("ftruncate failed");
+            printf("ftruncate failed\n");
     }
 
     fclose(fp);
